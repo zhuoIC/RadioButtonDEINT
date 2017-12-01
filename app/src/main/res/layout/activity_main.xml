@@ -51,13 +51,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.016" />
 
-    <include android:layout="@layout/layout_particular"
+    <include layout="@layout/layout_particular"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/rdgTypeClient"
         app:layout_constraintStart_toStartOf="@id/guideline"/>
 
-    <include android:layout="@layout/layout_bussiness"
+    <include layout="@layout/layout_bussiness"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         app:layout_constraintTop_toBottomOf="@id/rdgTypeClient"
